@@ -1,14 +1,4 @@
 
-
-
-	1- Introduction of the project
-	2- Ideas
-		- Context Switching
-		- Round Robin
-		- Preemption
-	3- Videos
-	4- Furture Work
-
 # Introduction
 
 This project is a c implementation of RTOS (Real Time Operating System) based on [FreeRTOS](https://www.freertos.org/). The Architecture and API methods names made like FreeRTOS. it's fully implemented from scratch. you will find a lot of similarities in the code with the FreeRTOS code and a lot of changes also (based on my understanding and how should i create the API).
