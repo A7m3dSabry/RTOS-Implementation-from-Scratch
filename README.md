@@ -50,3 +50,5 @@ reference [Mastering the FreeRTOS Real Time Kernel @ Page 93](https://www.google
 the project doesn't fully implement the FreeRTOS APIs. and shouldn't be used in production it was only for Learning Purposes.
 [![Project Video]](https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm)
 [v3.webm](https://github.com/user-attachments/assets/45bd164b-7d40-494a-b344-e0d09f318bf4)
+
+<a href="https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm)" target="_blank"></a>
