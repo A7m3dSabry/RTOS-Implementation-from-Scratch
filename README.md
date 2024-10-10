@@ -14,7 +14,7 @@ The Idea of Context Switching is to take a snapshot of the current running task 
 
 ### 1.1 Context Saving
 
-![[assets/CoreRegisters.png]]
+![](assets/CoreRegisters.png)
 reference: [CortexM3 Programming Manual @ Page 14](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.st.com/resource/en/programming_manual/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf&ved=2ahUKEwiV44j9yIOJAxXQ9bsIHchnI8kQFnoECCIQAQ&usg=AOvVaw0BM1fJ-D5EHLBl8x8n6Nvo)
 
 The required registers to be saved to save the context of the task are (R0-R12), SP, PC, PSR.
@@ -47,5 +47,5 @@ reference [Mastering the FreeRTOS Real Time Kernel @ Page 93](https://www.google
 
 # Project
 the project doesn't fully implement the FreeRTOS APIs. and shouldn't be used in production it was only for Learning Purposes.
-![Video][https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm]
+![Video](https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm)
 
