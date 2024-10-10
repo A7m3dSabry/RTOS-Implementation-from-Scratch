@@ -20,7 +20,7 @@ reference: [CortexM3 Programming Manual @ Page 14](https://www.google.com/url?sa
 The required registers to be saved to save the context of the task are (R0-R12), SP, PC, PSR.
 The Context Switching is done in `PendSV` Interrupt. and since it's done in interrupt this means that the cpu will do part of the work to us automatically, it will save (R0-R3), R12, LR, PC, PSR. and this process is called  `Stacking`.
 
-![[assets/stacking.png]]
+![](assets/stacking.png)
 
 In the `PendSV` Interrupt Handling we save the remaining Registers (R4-R11) by pushing it to the stack of the task. This is done in assembly code.
 
