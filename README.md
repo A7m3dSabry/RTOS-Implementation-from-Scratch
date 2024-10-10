@@ -41,14 +41,14 @@ Although it seems perfect for multi tasking. but it doesn't meet all embedded sy
 Also Known As (Priority Round Robin)
 It uses priority for each task and the task with the higher priority must be served first. Also Preempting makes it we don't have to wait the current running low priority task to finish its time slice to release the CPU. The Context Switching will be performed as soon as the higher priority task appear in ready state.
 
-![](assets/priority\ round\ robin.png)
+![]("assets/priority round robin.png")
 reference [Mastering the FreeRTOS Real Time Kernel @ Page 93](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.freertos.org/media/2018/161204_Mastering_the_FreeRTOS_Real_Time_Kernel-A_Hands-On_Tutorial_Guide.pdf&ved=2ahUKEwinmIrM04OJAxWoTKQEHcA1EZUQFnoECBYQAQ&usg=AOvVaw1MS5-TOFoSISa1k5GrZStM)
 
 
 
 # Project
 the project doesn't fully implement the FreeRTOS APIs. and shouldn't be used in production it was only for Learning Purposes.
-[![Project Video]](https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm)
+[![Project Video](https://github.com/user-attachments/assets/45bd164b-7d40-494a-b344-e0d09f318bf4)](https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm)
 [v3.webm](https://github.com/user-attachments/assets/45bd164b-7d40-494a-b344-e0d09f318bf4)
 
 <a href="https://github.com/A7m3dSabry/RTOS-Implementation-from-Scratch/blob/213780d84df4c1e824a9c1b6e69d9fbb2a4154fa/assets/v3.webm)" target="_blank"></a>
